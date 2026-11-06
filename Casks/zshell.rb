@@ -1,9 +1,9 @@
 cask "zshell" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.1.13"
-  sha256 arm:   "521c44fe20cbacde5e98f633005a73940c711dd3f7a57a5becead3eb115fa31c",
-         intel: "154d1d34eeb85cad2535e1d189c26b25df306871a759a2d5e64f12c3d55baa5b"
+  version "0.1.14"
+  sha256 arm:   "c55dcf4d2b84326a5cb039f9c2b37a5cc90e8401f231c3c579ee4826e5d8e771",
+         intel: "4b10b20f34d3d4d864a93b0cc6bca6a44f1ed507b472d1ef0457d1034b9e614a"
 
   url "https://github.com/wzz6423/zshell/releases/download/v#{version}/zshell-v#{version}-macOS-#{arch}.zip"
   name "Zshell"
